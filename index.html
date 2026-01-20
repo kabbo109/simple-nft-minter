@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT Minter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="glass-panel">
+        <h1>🎨 NFT Minter</h1>
+        <p>Mint your unique asset to the blockchain.</p>
+        
+        <button id="connectBtn">Connect Wallet</button>
+        
+        <div id="mintArea" class="hidden">
+            <input type="text" id="tokenURI" placeholder="Paste IPFS/Image URL here...">
+            <button id="mintBtn">Mint NFT</button>
+        </div>
+
+        <div id="console" class="console-log">Ready...</div>
+    </div>
+
+    <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
